@@ -1,7 +1,7 @@
 html, body {
 	height: 100%;
 	width: 100%;
-	background: #122139;
+	background: #000000;
 	overflow: hidden;
   }
   
@@ -55,6 +55,36 @@ html, body {
 	left: 10px;
 	top: 280px;
   }
+  .container .bold-text {
+	font-size: 30px;
+	position: fixed;
+	width: 500px;
+	height: 100px;
+	text-align: center;
+	margin-right: 0px;
+	margin-left: -200px;
+	margin-top: 370px;
+	margin-bottom: 0px;
+	color: rgba(255,89,141);
+	background: #000000
+  }
+  .container .bold-text .text-glow {
+	position: absolute;
+	width: 500px;
+	height: 100px;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+	box-shadow: #f594b8;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	-moz-animation: glowing 2.5s ease-in-out infinite;
+	-webkit-animation: glowing 2.5s ease-in-out infinite;
+	animation: glowing 2.5s ease-in-out infinite;
+	
+  }
   .container .glow {
 	position: absolute;
 	width: 170px;
@@ -62,8 +92,8 @@ html, body {
 	-moz-border-radius: 100%;
 	-webkit-border-radius: 100%;
 	border-radius: 100%;
-	border: 1px solid rgba(245, 148, 184, 0.47);
-	box-shadow: 0px 0px 10px #f594b8;
+	border: 1px solid rgba(198, 70, 117, 0.896);
+	box-shadow: 0px 0px 10px #f5558f;
 	left: -40px;
 	top: -40px;
 	-moz-transition: all 0.5s ease;
@@ -194,7 +224,7 @@ html, body {
   .container .rose-leaves > div:nth-last-child(1) {
 	width: 55px;
 	height: 30px;
-	background: #338f37;
+	background: #089908;
 	position: absolute;
 	top: 60px;
 	left: 15px;
@@ -207,13 +237,13 @@ html, body {
 	height: 230px;
 	border: none;
 	top: 80px;
-	background: #066406;
+	background: #089908;
 	left: 40px;
   }
   .container .thorns > div {
 	width: 30px;
 	height: 30px;
-	background: #066406;
+	background: #089908;
 	top: 100px;
 	left: 10px;
   }
@@ -223,7 +253,7 @@ html, body {
 	-moz-border-radius: 100%;
 	-webkit-border-radius: 100%;
 	border-radius: 100%;
-	background: #122139;
+	background: #000000;
 	content: "";
 	position: absolute;
 	left: -12px;
@@ -235,7 +265,7 @@ html, body {
 	-moz-border-radius: 100%;
 	-webkit-border-radius: 100%;
 	border-radius: 100%;
-	background: #122139;
+	background: #000000;
 	content: "";
 	position: absolute;
 	left: -11px;
@@ -268,7 +298,7 @@ html, body {
 	width: 4px;
 	height: 4px;
 	border-radius: 100px;
-	background: #ff96c0;
+	background: #fc75ab;
 	box-shadow: 0px 0px 12px 2px #ff4e85;
 	bottom: 0;
 	opacity: 0;
